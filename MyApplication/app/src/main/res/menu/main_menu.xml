@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/logout"
+        android:title="LogOut"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/details"
+        android:title="About App"
+        app:showAsAction="never"/>
+  <item
+        android:id="@+id/report"
+        android:title="Report Developer"
+        app:showAsAction="never">
+        <menu>
+
+        <item
+            android:id="@+id/report1"
+            android:title="For Suggestion"
+            app:showAsAction="never"/>
+            <item
+                android:id="@+id/report2"
+                android:title="For Report"/>
+    </menu>
+
+
+
+
+    </item>
+
+</menu>
